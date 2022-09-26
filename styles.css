@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+footer {
+  color: #6f6f6f;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.top-bar {
+  font-size: 14px;
+  padding: 15px 15px;
+}
+.bar-right {
+  margin-left: auto;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.menu a {
+  color: #2d2d2d;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.profile-trigger img {
+  width: 34px;
+  height: 29px;
+  border-radius: 50%;
+}
+
+.search-info {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.google {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 200px ;
+  
+}
+
+.share {
+  margin-left: 490px;
+}
+.search-info {
+  align-items: center;
+}
+.search-bar {
+  margin: 30px 0;
+  position: relative;
+  width: 100%;
+}
+
+.search-bar input {
+  height: 44px;
+  width: 470px;
+  border: 1px solid #d0d0d0;
+  border-radius: 100px;
+  padding: 0 30px;
+  outline: 0;
+  box-shadow: 0 0 0 0 rgba(136, 136, 136, 0);
+  font-size: 18px;
+  transition: box-shadow 0.3s;
+}
+
+.search-bar input:focus {
+  box-shadow: 0 0 10px -4px #888888;
+}
+
+.search-bar .search-icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  font-size: 20px;
+  color: #888888;
+}
+
+.search-bar .search-icon.right {
+  right: 0;
+}
+
+.search-buttons {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.search-buttons a {
+  text-decoration: none;
+  margin-right: 15px;
+  background-color: #ececec;
+  color: #6f6f6f;
+  padding: 10px 15px;
+  border-radius: 3px;
+  border: 1px solid #f2f2f2;
+  font-size: 14px;
+}
+
+.search-buttons a:last-child {
+  margin-right: 0;
+}
+
+.search-buttons a:hover {
+  color: black;
+  background-color: #f5f5f5;
+  border: 1px solid #c6c6c6;
+}
+
+.footer-one {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin-left: 30px;
+  font-size: 15px;
+}
+.footer-two {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin-left: 30px;
+}
+
+.footer-two a {
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.footer-two a:hover {
+  text-decoration: underline;
+}
+
+.footer-three {
+  margin-left: auto;
+}
+
+.line {
+  background-color: #c6c6c6;
+  height: 1px;
+  border: 0;
+}
